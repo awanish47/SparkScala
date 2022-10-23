@@ -1,0 +1,7 @@
+CHILD_CODE,MOTHER_CODE,PRODUCT_LEVEL,PRODUCT_ROOT,PRODUCT_PATH,PROD_ISCYCLIC,PROD_ISLEAF,PRODUCT_FLAG
+All,,1,All,All,0,0,Y
+8-32-22-6,8-32-22,4,All,All<Non-Trading<8-32-22-6,0,1,N
+8-32-22-7,8-32-22,4,All,All<Non-Trading<8-32-22-7,0,1,N
+8-32-22-8,8-32-22,4,All,All<Non-Trading<8-32-22-8,0,1,N
+8-32-22,Non-Trading,3,All,All<Non-Trading<8-32-22,0,0,Y
+Non-Trading,All,2,All,All<Non-Trading,0,0,Y

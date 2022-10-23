@@ -13,3 +13,4 @@ idePackagePrefix := Some("com.sparkscala.dev")
 libraryDependencies += "org.apache.spark" %% "spark-core" % "3.0.3"% "compile"
 libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.0.3" % "compile"
 libraryDependencies += "org.apache.spark" %%"spark-graphx" % "3.0.3" % "compile"
+libraryDependencies += "oracle" % "ojdbc6" % "11.2.0.3" % "system"

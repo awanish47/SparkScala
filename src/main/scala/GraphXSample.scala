@@ -1,7 +1,9 @@
 package com.sparkscala.dev
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.graphx._
+
 import scala.util.hashing.MurmurHash3
 
 object GraphXSample {
