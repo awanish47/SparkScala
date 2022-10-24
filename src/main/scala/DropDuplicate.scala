@@ -34,7 +34,7 @@ object DropDuplicate extends App {
   df.distinct().show()
 
   //removing duplicates based on column
-  df.dropDuplicates(("price")).show()
+  df.dropDuplicates("price").show()
 
   //keeping first occurrence
   val window = Window.partitionBy("item_group","item_name","price").orderBy("price")
