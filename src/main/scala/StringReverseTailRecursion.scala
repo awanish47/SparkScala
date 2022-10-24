@@ -1,7 +1,6 @@
 package com.sparkscala.dev
 
 import scala.annotation.tailrec
-
 object StringReverseTailRecursion extends App{
   def reverseString(s:String): String ={
     @tailrec
